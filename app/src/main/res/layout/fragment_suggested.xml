@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerSuggested"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:padding="16dp" android:clipToPadding="false" />
+
+    <TextView android:id="@+id/emptySuggested"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:text="No recipes match your pantry yet.\nAdd more ingredients!"
+        android:textColor="@color/textMuted" android:textSize="16sp" android:textStyle="bold" android:gravity="center" />
+
+</FrameLayout>

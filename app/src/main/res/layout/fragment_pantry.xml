@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPantry"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:padding="16dp" android:clipToPadding="false" />
+
+    <!-- Unique empty state message -->
+    <TextView android:id="@+id/emptyState"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:text="Oops empty pantry!\nTap to add ingredients!!"
+        android:textColor="@color/textMuted" android:textSize="18sp"
+        android:textStyle="bold" android:gravity="center" />
+
+    <!-- Floating Action Button moved to the BOTTOM LEFT -->
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabAdd" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start" android:layout_margin="20dp"
+        android:text="+ Add Ingredient" android:textColor="@color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconTint="@color/white" />
+</FrameLayout>
