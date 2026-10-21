@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tree/Environment Greens -->
+    <color name="colorPrimary">#2E7D32</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+
+    <!-- Water/Environment Blues -->
+    <color name="colorSecondary">#0288D1</color>
+    <color name="bgLightBlue">#E1F5FE</color>
+
+    <!-- Text and Accents -->
+    <color name="white">#FFFFFF</color>
+    <color name="textDark">#1A1A1A</color>
+    <color name="textMuted">#757575</color>
+    <color name="alertRed">#D32F2F</color>
+</resources>
